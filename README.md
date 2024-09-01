@@ -28,9 +28,7 @@ Install my-project with npm
 
 6. Create database and change the credentials in .env file
 
-7. Database connect and Import database
-
-8. Run this command for storage link
+7. Run this command for storage link
 
 ```bash
     php artisan storage:link
