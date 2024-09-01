@@ -32,6 +32,10 @@ Install my-project with npm
 
 8. Run this command for storage link
 
+```bash
+    php artisan storage:link
+```
+
 ## ECOMMERCE
 
 Developed using Laravel, my e-commerce project offers a clean and minimalist interface with powerful multi-filtering features. Users can filter by categories, color and price of products, and can also perform brand-specific searches using the search bar. With the ability to combine multiple filters and search by specific categories, shoppers can easily find the products they want and enjoy a seamless and personalized shopping experience. Explore my user-friendly and visually appealing e-commerce project for a hassle-free shopping journey.
