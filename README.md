@@ -1,4 +1,38 @@
-## SHOPPER ECOMMERCE
+## Install Process
+
+Install my-project with npm
+
+1. Clone the repo and open directory
+
+```bash
+    git clone https://github.com/smshamimsr/e-commerce.git & cd e-commerce
+```
+
+2. Composer Install
+
+```bash
+    composer install
+```
+
+```bash
+    cp .env.example .env
+```
+
+```bash
+    php artisan key:generate
+```
+
+```bash
+    npm install && npm run build
+```
+
+6. Create database and change the credentials in .env file
+
+7. Database connect and Import database
+
+8. Run this command for storage link
+
+## ECOMMERCE
 
 Developed using Laravel, my e-commerce project offers a clean and minimalist interface with powerful multi-filtering features. Users can filter by categories, color and price of products, and can also perform brand-specific searches using the search bar. With the ability to combine multiple filters and search by specific categories, shoppers can easily find the products they want and enjoy a seamless and personalized shopping experience. Explore my user-friendly and visually appealing e-commerce project for a hassle-free shopping journey.
 
@@ -48,37 +82,3 @@ Developed using Laravel, my e-commerce project offers a clean and minimalist int
 -   Site Setting page (URL: /#/panel/setting)
     -   Add, delete, edit and list site setting
     -   Creating a field with ajax according to the selected input (ckeditor, textarea, text, file, image, email)
-
-## Install Process
-
-Install my-project with npm
-
-1. Clone the repo and open directory
-
-```bash
-    git clone https://github.com/smshamimsr/e-commerce.git & cd e-commerce
-```
-
-2. Composer Install
-
-```bash
-    composer install
-```
-
-```bash
-    cp .env.example .env
-```
-
-```bash
-    php artisan key:generate
-```
-
-```bash
-    npm install && npm run build
-```
-
-6. Create database and change the credentials in .env file
-
-7. Database connect and Import database
-
-8. Run this command for storage link
